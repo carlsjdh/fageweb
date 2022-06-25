@@ -91,7 +91,7 @@ def main_loop():
         ("Webcam", "Archivo")
     )
     model = st.sidebar.selectbox(
-        "Seleccionar modo de imagen",
+        "Seleccionar el modelo",
         ("IMDB", "ADIENCE")
     )
     st.title("Detector de edad")
